@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4337cb24-b3fa-4889-8556-bf87f7d7500f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/main/meetings/create_meet.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/main/meetings/edit_meet.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/main/meetings/index_meet.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/main/meetings/show_meet.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/main/members/member.blade.php" afterDir="false" />
+    <list default="true" id="4337cb24-b3fa-4889-8556-bf87f7d7500f" name="Changes" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RequestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RequestController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/my.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/_layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/_layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/main/requests/create_request.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main/requests/create_request.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/main/requests/index_request.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main/requests/index_request.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,8 +171,16 @@
       <workItem from="1654062422377" duration="1336000" />
       <workItem from="1654076591246" duration="1334000" />
       <workItem from="1654145181724" duration="186000" />
-      <workItem from="1654145370556" duration="7751000" />
+      <workItem from="1654145370556" duration="17706000" />
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1654157943200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654157943200</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,5 +196,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>

@@ -22,4 +22,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 
-Route::resource('/report' , '\App\Http\Controllers\ReportController');
+Route::resource('/request' , '\App\Http\Controllers\RequestController');
+Route::resource('/meet' , '\App\Http\Controllers\MeetController');
+Route::resource('/member' , '\App\Http\Controllers\MemberController');

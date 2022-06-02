@@ -7,7 +7,7 @@
         <!--begin::Logo-->
         <a href="../../demo1/dist/index.html">
             {{--            <img alt="Logo" src="assets/media/logos/logo-1-dark.svg" class="h-25px logo"/>--}}
-            <h3 style="color:white"   class="h-25px logo">لجنة العلاج التخصصي</h3>
+            <h3 style="color:white" class="h-25px logo">لجنة العلاج التخصصي</h3>
 
         </a>
         <!--end::Logo-->
@@ -32,6 +32,7 @@
         <!--end::Aside toggler-->
     </div>
     <!--end::Brand-->
+
     <!--begin::Aside menu-->
     <div class="aside-menu flex-column-fluid">
         <!--begin::Aside Menu-->
@@ -48,10 +49,6 @@
                         <span class="menu-section text-muted text-uppercase fs-8 ls-1">لوحة التحكم</span>
                     </div>
                 </div>
-
-
-
-
 
 
                 <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
@@ -75,7 +72,7 @@
 									</span>
                     <div class="menu-sub menu-sub-accordion">
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('report.index')}}">
+                            <a class="menu-link" href="{{route('request.index')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -83,7 +80,7 @@
                             </a>
                         </div>
                         <div class="menu-item">
-                            <a class="menu-link" href="{{route('report.index')}}">
+                            <a class="menu-link" href="{{route('request.create')}}">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>
@@ -92,9 +89,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
 
 
                 <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
@@ -145,13 +139,10 @@
                 </div>
 
 
-
-
             </div>
             <!--end::Menu-->
         </div>
         <!--end::Aside Menu-->
     </div>
     <!--end::Aside menu-->
-
 </div>
