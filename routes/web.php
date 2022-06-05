@@ -25,3 +25,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::resource('/request' , '\App\Http\Controllers\RequestController');
 Route::resource('/meet' , '\App\Http\Controllers\MeetController');
 Route::resource('/member' , '\App\Http\Controllers\MemberController');
+
+
+Route::get('/get-rows',function (){
+   return 'test';
+})->name('get-rows');

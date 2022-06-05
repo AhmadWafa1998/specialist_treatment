@@ -104,6 +104,20 @@
 <!--begin::Global Javascript Bundle(used by all pages)-->
 <script src="{{asset('assets/plugins/global/plugins.bundle.js')}}"></script>
 <script src="{{asset('assets/js/scripts.bundle.js')}}"></script>
+<script>
+    function myDataTable(el, options) {
+        if ($.fn.DataTable.isDataTable(el)) {
+            $(el).dataTable().api().clear();
+            $(el).dataTable().api().draw();
+            return $(el).dataTable();
+        }
+        $.fn.dataTable.ext.errMode = 'none';
+        let settings = $.extend({
+            language: {url: '{{asset('js/DataTable_Arabic.json')}}'},
+        }, options);
+        return $(el).dataTable(settings);
+    }
+</script>
 <!--end::Global Javascript Bundle-->
 @yield('js')
 <!--begin::Page Custom Javascript(used by this page)-->
